@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-This is to showcase how to use GRID templating.
+This is to showcase how to use GRID templating and second
 Also using hhtp client module to GET the data from server using 3 ways:
 1) Subscribe
 2) Async Await Promise
