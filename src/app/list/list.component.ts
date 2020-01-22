@@ -32,7 +32,7 @@ export class ListComponent implements OnInit {
     this.brews2=await this.http.getSomethingUsingPromise();
    
     //3
-    //this returns 
+    //this returns ob
     this.http.getSomethingUsingSubscribe()
     .subscribe((data)=>
       {
