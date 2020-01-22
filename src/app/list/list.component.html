@@ -1,0 +1,25 @@
+<h1>Breweries</h1>
+<h3>Using Observables</h3>
+<ul *ngIf="brews">
+    <li *ngFor="let brew of (brews | async)">
+    <p class="name">{{ brew.name }}</p>
+    <p class="country">{{ brew.country }}</p>
+    <a class="site" href="{{ brew.website_url }}" target="_blank">visit</a>
+  </li>
+</ul>
+<h3>Using Promises , Aync and Await</h3>
+<ul *ngIf="brews2">
+    <li *ngFor="let brew of brews2">
+    <p class="name">{{ brew.name }}</p>
+    <p class="country">{{ brew.country }}</p>
+    <a class="site" href="{{ brew.website_url }}" target="_blank">visit</a>
+  </li>
+</ul>
+<h3>Using Subscribe</h3>
+<ul *ngIf="brews3">
+    <li *ngFor="let brew of brews3">
+    <p class="name">{{ brew.name }}</p>
+    <p class="country">{{ brew.country }}</p>
+    <a class="site" href="{{ brew.website_url }}" target="_blank">visit</a>
+  </li>
+</ul>
