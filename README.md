@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
+This is to showcase how to use GRID templating and second
+Also using hhtp client module to GET the data from server using 3 ways:
+1) Subscribe
+2) Async Await Promise
+3) Observable
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
