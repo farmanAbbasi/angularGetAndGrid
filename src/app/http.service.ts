@@ -16,7 +16,7 @@ export class HttpService {
     return this.http.get<Brew[]>('https://api.openbrewerydb.org/breweries')
   }
 
-  getSomethingUsingPromise() {
+  getSomethingUsingPromise() { 
     return this.http.get<Brew[]>('https://api.openbrewerydb.org/breweries').toPromise();
   }
 
