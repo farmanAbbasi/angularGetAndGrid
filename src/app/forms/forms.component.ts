@@ -22,7 +22,7 @@ export class FormsComponent implements OnInit {
     });
   }
 
-  onSubmit(value) {
+  onSubmit() {
     this.submitted = true;
     if (this.messageForm.invalid) {
         return;
