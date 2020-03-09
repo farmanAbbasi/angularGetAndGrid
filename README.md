@@ -1,3 +1,4 @@
+Deployed version of master: https://suspicious-torvalds-93badd.netlify.com
 # MyNewApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
