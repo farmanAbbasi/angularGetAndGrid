@@ -1,18 +1,49 @@
-<header>
-  <div class="container">
-    <a routerLink="/" class="logo">CoolApp</a>
-    <nav>
-      <ul>
+<nav class="navbar navbar-default " style="background-color:#00ccd2;border-radius: 0;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div>
+        <a class="navbar-brand" href="#" style="color:black;font-size: 18px">Cool App</a>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="#" routerLink="/">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
         <li><a href="#" routerLink="/list">List</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
         <li><a href="#" routerLink="/grid">Grid</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="#" routerLink="/ang7">Ang7</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+
         <li><a href="#" routerLink="/forms">Forms</a></li>
       </ul>
-    </nav>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#" routerLink="/landing">Landing</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#" routerLink="/particle">particle.js</a></li>
+      </ul>
+    </div>
   </div>
-</header>
+</nav>
 
 <div class="container">
   <router-outlet></router-outlet>
 </div>
+<router-outlet></router-outlet>

@@ -1,4 +1,4 @@
-<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit(messageForm.value)">
     <h5 *ngIf="success">Your form is valid!</h5>
 
     <label>
@@ -26,6 +26,16 @@
         </div>
 
     </label>
+
+    
+<label for="RoleId" class="control-label">Role
+<select [formControl]="messageForm.controls['RoleId']">
+<option *ngFor="let r of roles" [value]="r.id">
+            {{r.name}}
+        </option>
+</select>
+
+</label>  
 
     <input type="submit" value="Send message" class="cta">
 </form>

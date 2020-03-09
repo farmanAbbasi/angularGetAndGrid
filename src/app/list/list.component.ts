@@ -38,6 +38,5 @@ export class ListComponent implements OnInit {
       {
            this.brews3=data;
       })
-
   }
 }

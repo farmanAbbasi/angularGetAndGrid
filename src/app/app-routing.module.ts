@@ -5,6 +5,8 @@ import { HomeComponent } from './home/home.component';
 import { GridComponent } from './grid/grid.component';
 import { Ang7Component } from './ang7/ang7.component';
 import { FormsComponent } from './forms/forms.component';
+import { LandingComponent } from './landing/landing.component';
+import { ParticleComponent } from './particle/particle.component';
 
 const routes: Routes = [
   
@@ -27,6 +29,14 @@ const routes: Routes = [
   {
     path:  '',
     component: HomeComponent
+  },
+  {
+    path:  'landing',
+    component: LandingComponent
+  },
+  {
+    path:  'particle',
+    component: ParticleComponent
   }
 ];
 

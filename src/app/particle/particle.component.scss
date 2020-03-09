@@ -1,0 +1,18 @@
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: #f0f8ff4d;
+    padding: 30px;
+}
+label{
+    color:white
+}
+.btnMe{
+  padding: 10px;
+  border:none;
+  background-color: rgb(5, 5, 63); 
+  color:white
+}
